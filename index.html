@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title>Virtual Valentine's Day Card</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Images on Button Click</title>
+    <style>
+        #imageContainer {
+            margin-top: 20px;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            display: none; /* Hide images initially */
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">Happy Valentine's day Mimi,</p>
+                    <p class="words line2">I love you soooo much</p>
+                    <p class="words line3">Love,</p>
+                    <p class="words line4">Lincoln</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div>
+    
+        <div id="imageContainer">
+            <img id="image1" src="image1.jpg" alt="Image 1" style="display: none;">
+            <img id="image2" src="image2.jpg" alt="Image 2" style="display: none;">
+        </div>
+    
+        <script src="index.js"></script>
+    </body>
+    
+</html>
